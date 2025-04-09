@@ -9,7 +9,7 @@ This repository is tailored to a specific set of inputs and ground-truth mapping
 
 ## 🚀 Explanation
 
-1: Java executable millm-owlapi-2 is executed via the command line and takes a folder name which is the location of the raw ontology.owl files. The Java process takes each owl ontology, parses it using the OWLAPI library and extracts class relationships and properties, and generates a CSV file representing the structure and semantics of the ontology classes. The parameter 'level' can be supplied as either 'summary' or 'verbose' which guides the output to be more verbose or not. The default is 'summary'.
+1: Java executable millm-owlapi-1 is executed via the command line and takes a folder name which is the location of the raw ontology.owl files. The Java process takes each owl ontology, parses it using the OWLAPI library and extracts class relationships and properties, and generates a CSV file representing the structure and semantics of the ontology classes. The parameter 'level' can be supplied as either 's' or 'v' which guides the output to be a summary (s) or verbose (v). The default is 's' for a summary representation. The Java maven project code is included in the repository (millm-owlapi-1).
 
 2: Python script ....py is executed via the command line and takes a folder name which is the location of the groung truth mappings
 
@@ -22,7 +22,11 @@ This repository is tailored to a specific set of inputs and ground-truth mapping
 
 ### Requirements
 
-1: Python / Java
+1: This experiment has been run successfully on Mac OS running Sequioa 15.3.2
+2: Python 3.12.7
+3: Java 
+
+Any other configuration may work, but cannot be supported in advance.
 
 ### Steps
 
