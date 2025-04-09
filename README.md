@@ -17,8 +17,8 @@ This repository contains data and application code to prepare, process and outpu
 
 ### Requirements
 
-- Python / Java
+1 Python / Java
 
 ### Steps
 
-- Clone this repository
+1 Clone this repository
