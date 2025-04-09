@@ -13,12 +13,12 @@ This repository contains data and application code to prepare, process and outpu
 
 ---
 
-## 🛠️ Installation
+## 🛠️ Usage
 
 ### Requirements
 
-1 Python / Java
+1: Python / Java
 
 ### Steps
 
-1 Clone this repository
+1: Clone this repository
