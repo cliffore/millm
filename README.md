@@ -44,5 +44,3 @@ Any other configuration may work, but cannot be supported in advance.
 
 1: To update this process to use a different source, change the Java code to parse the source owl files differently (and build the jar artifact again if needed) and also the make-ref-align.py script that parses the 
 
-
-java -jar millm-owlapi-3.jar "/Users/Shared/Documents/personal/PhD/dev/year2/pramantha/millm/input-data/ontologies" v
