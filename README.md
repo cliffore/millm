@@ -35,7 +35,7 @@ Any other configuration may work, but cannot be supported in advance.
 
 ### Steps
 
-To process this experiment using the added ontologies:
+To process this experiment using the included ontologies:
 
 
 1: Clone this repository, e.g. 
@@ -47,8 +47,12 @@ To process this experiment using the added ontologies:
 
 ```cd millm-owlapi-4/target```
 
-```java -jar millm-owlapi-4/target/millm-owlapi.jar "/full/path/to/folder" v```
+```java -jar millm-owlapi.jar "/full/path/to/folder" v```
 
+
+3: Execute the Python script to create the groung truth mappings, e.g. 
+
+```python make-ref-align-py```
 
 
 ### Making changes
