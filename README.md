@@ -34,11 +34,13 @@ Any other configuration may work, but cannot be supported in advance.
 
 ### Steps
 
-1: Clone this repository, e.g. gh repo clone https://github.com/cliffore/millm.git
+1: Clone this repository, e.g. 
+
+```gh repo clone https://github.com/cliffore/millm.git```
 
 2: Execute the Java program
-    cd millm-owlapi-4/target
-    java -jar millm-owlapi-4/target/millm-owlapi.jar "/full/path/to/folder" v
+    ```cd millm-owlapi-4/target```
+    ```java -jar millm-owlapi-4/target/millm-owlapi.jar "/full/path/to/folder" v```
 
 
 ### Making changes
